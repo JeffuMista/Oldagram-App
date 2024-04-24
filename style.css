@@ -1,0 +1,62 @@
+body {
+  font-family: "source sans 3", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: regular;
+  margin: 0;
+  background-color: #F5F5F5;
+}
+.container {
+  width: 570px;
+  margin: 0 auto;
+}
+.header-imgs {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 20px;
+  border-bottom: 2px solid #C6C6C6;
+}
+.logo {
+  width: 170px;
+}
+.prof-pic {
+  width: 80px;
+  border-radius: 50%;
+}
+.prof-info {
+  display: flex;
+  align-content: center;
+  padding: 20px;
+}
+header,
+section {
+  background: white;
+}
+h1 {
+  margin: 0;
+  padding: 10px 0 0 10px;
+}
+h2 {
+  margin: 0;
+  padding: 0 0 10px 10px; ;
+  font-size: 16px;
+  font-weight: 400px;
+}
+h3 {
+  margin-top: 0;
+  padding-bottom: 20px;
+}
+.post-img {
+  width: 100%;
+}
+.post-icon {
+  width: 40px;
+  padding: 10px;
+}
+
+.prof-info span {
+  font-size: 12px;
+}
+.light-text {
+  font-weight: 400;
+}
