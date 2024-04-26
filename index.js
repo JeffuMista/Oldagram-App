@@ -63,7 +63,7 @@ for (const post of postsArr) {
     <i class="fa-regular fa-comment post-icon"></i>
     </span>
     <img
-      src="/images/icon-dm.png"
+      src="icon-dm.png"
       alt="DM icon to message user"
       class="post-icon post-icon-img"
     />
