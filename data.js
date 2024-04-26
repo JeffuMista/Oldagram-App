@@ -5,7 +5,8 @@ const postsArr = [
     location: "Zundert, Netherlands",
     avatar: "images/avatar-vangogh.jpg",
     entry: "images/post-vangogh.jpg",
-    comment: "Took a few shrooms and boy don't I feel creative. Pyschedelics mechanics wuoooh! 🤣🤣🤣",
+    comment:
+      "Took a few shrooms and boy don't I feel creative. Pyschedelics mechanics wuoooh! 🤣🤣🤣",
     likes: 21,
   },
   {
@@ -39,7 +40,7 @@ for (const post of postsArr) {
     <div>
       <img
         src="${post.avatar}"
-        alt="Van Gogh profile pic"
+        alt="User profile pic"
         class="prof-pic"
       />
     </div>
@@ -51,7 +52,7 @@ for (const post of postsArr) {
   <div class="post-entry">
   <img
     src="${post.entry}"
-    alt="Van Gogh Post of Van Gogh image"
+    alt="Post entry image"
     class="post-img"
   />
   <div class="icon-container">
@@ -80,38 +81,3 @@ for (const post of postsArr) {
     `;
   Posts.appendChild(section);
 }
-{/* <img
-      src="images/icon-heart.png"
-      alt="Heart Icon to like post"
-      class="post-icon like"
-    />
-    <h3 class="like">Like</h3>
-    <img
-      src="images/icon-comment.png"
-      alt="Comment Icon to comment on post"
-      class="post-icon"
-    /> */}
-
-{
-  /* <span class="icons"> //
-<i class="fa-regular fa-heart"></i>
-<i class="fa-regular fa-comment"></i>
-</span> */
-}
-const likeBtn = document.getElementsByClassName("like");
-console.log(likeBtn);
-
-for (var i = 0; i < likeBtn.length; i++) {
-  likeBtn[i].addEventListener("dblClick", changeColor);
-}
-function changeColor() {
-  // likeBtn[0].setAttribute("style", "width:1500px")
-  if (likeBtn[i].style.background === "#F5F5F5" || "white") {
-    likeBtn[i].style.background === "red";
-  } else if (likeBtn[i].style.background === "red") {
-    likeBtn[i].style.background === "#F5F5F5" || "white";
-  } else {
-    likeBtn[i].style.color === "red";
-  }
-}
-changeColor();
