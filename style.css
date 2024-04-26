@@ -1,5 +1,5 @@
 body {
-  font-family: "source sans 3", Helvetica, Arial, sans-serif;
+  font-family: "source sans 3", Helvetica, Arial, sans-serif, 'open sans';
   line-height: 1.5;
   font-weight: regular;
   margin: 0;
@@ -74,6 +74,21 @@ h3 {
 .post-icon:hover {
   background-color: #F5F5F5;
 }
-/* .icons {
-  width: 50px;
-} */
+.icons {
+  padding: 5px;
+  align-items: center;
+}
+.fa-regular, .fa-heart {
+  font-size: 40px;
+}
+.post-icon-img {
+  width: 40px;
+  padding: 10px;
+}
+.icon-container {
+  display: flex;
+}
+.fa-heart {
+  color: red;
+  background: none;
+}
