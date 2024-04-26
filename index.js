@@ -3,8 +3,8 @@ const postsArr = [
     name: "Vincent van Gogh",
     username: "vincey1853",
     location: "Zundert, Netherlands",
-    avatar: "images/avatar-vangogh.jpg",
-    entry: "images/post-vangogh.jpg",
+    avatar: "avatar-vangogh.jpg",
+    entry: "post-vangogh.jpg",
     comment:
       "Took a few shrooms and boy don't I feel creative. Pyschedelics mechanics wuoooh! 🤣🤣🤣",
     likes: 21,
@@ -13,8 +13,8 @@ const postsArr = [
     name: "Gustave Courbet",
     username: "gus1819",
     location: "Ornans, France",
-    avatar: "images/avatar-courbet.jpg",
-    entry: "images/post-courbet.jpg",
+    avatar: "avatar-courbet.jpg",
+    entry: "post-courbet.jpg",
     comment: "i'm feelin a bit stressed tbh... but again, TGIF 🍻",
     likes: 4,
   },
@@ -22,8 +22,8 @@ const postsArr = [
     name: "Joseph Ducreux",
     username: "jd1735",
     location: "Paris, France",
-    avatar: "images/avatar-ducreux.jpg",
-    entry: "images/post-ducreux.jpg",
+    avatar: "avatar-ducreux.jpg",
+    entry: "post-ducreux.jpg",
     comment:
       "gm friends! Jus' bought some Shiba Inu. which coin are YOU stacking up today?? post below and WAGMI!😉",
     likes: 152,
@@ -63,7 +63,7 @@ for (const post of postsArr) {
     <i class="fa-regular fa-comment post-icon"></i>
     </span>
     <img
-      src="images/icon-dm.png"
+      src="/images/icon-dm.png"
       alt="DM icon to message user"
       class="post-icon post-icon-img"
     />
