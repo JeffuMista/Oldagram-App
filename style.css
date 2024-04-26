@@ -3,7 +3,7 @@ body {
   line-height: 1.5;
   font-weight: regular;
   margin: 0;
-  background-color: #F5F5F5;
+  background-color: white;
 }
 .container {
   width: 570px;
@@ -29,8 +29,17 @@ body {
   padding: 20px;
 }
 header,
-section {
+.section {
   background: white;
+  margin: 0;
+}
+.post-entry {
+  border: 2px #b58b8b solid;
+  padding: 20px;
+}
+.section:last-child {
+  margin-bottom: 50px;
+  background-color: white;
 }
 h1 {
   margin: 0;
@@ -45,7 +54,9 @@ h2 {
 h3 {
   margin-top: 0;
   padding-bottom: 20px;
+  margin-bottom: 0px;
 }
+
 .post-img {
   width: 100%;
 }
@@ -60,3 +71,9 @@ h3 {
 .light-text {
   font-weight: 400;
 }
+.post-icon:hover {
+  background-color: #F5F5F5;
+}
+/* .icons {
+  width: 50px;
+} */

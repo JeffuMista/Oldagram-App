@@ -10,11 +10,20 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" />
     <title>Oldagram</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/counter.js"></script>
+    <header class="header">
+      <div class="container">
+        <div class="header-imgs">
+          <img src="images/logo.png" alt="Oldgram Logo" class="logo" />
+          <img src="images/user.jpeg" alt="Profile Image" class="prof-pic" />
+        </div>
+      </div>
+    </header>
+    <div id="posts"></div>
+    <script type="module" src="data.js"></script>
   </body>
 </html>
